@@ -1,0 +1,65 @@
+.projects {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.project-card {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.tours {
+  background-image: url('../img/thustours.png');
+  background-size: cover;
+  width: 400px;
+  height: 250px;
+}
+
+.shelter {
+  background-image: url('../img/shelter.png');
+  background-size: cover;
+  width: 400px;
+  height: 250px;
+}
+
+.teacher {
+  background-image: url('../img/teacher.png');
+  background-size: cover;
+  width: 400px;
+  height: 250px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(77, 77, 77, 0.7);
+  opacity: 0;
+  transition: all 0.5s;
+  padding: 25px;
+  color: white;
+}
+
+.overlay h4, .overlay p {
+  transform: translateY(40px);
+  transition: all 0.7s;
+}
+
+.overlay h4 {
+  margin-top: 55px;
+}
+
+.overlay p {
+  font-weight: 300;
+}
+
+.shelter:hover .overlay, .teacher:hover .overlay {
+  opacity: 1;
+}
+
+.shelter:hover .overlay h4, .shelter:hover .overlay p, .teacher:hover .overlay h4, .teacher:hover .overlay p {
+  opacity: 1;
+  transform: translateY(0px);
+}
+
+.shelter:hover .overlay p, .teacher:hover .overlay p {
+  transition-delay: 0.1s;
+}
