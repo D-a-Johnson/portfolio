@@ -10,22 +10,22 @@
 .tours {
   background-image: url('../img/thustours.png');
   background-size: cover;
-  width: 400px;
+  width: 500px;
   height: 250px;
 }
 
 .shelter {
   background-image: url('../img/shelter.png');
   background-size: cover;
-  width: 400px;
-  height: 250px;
+  width: 500px;
+  height: 300px;
 }
 
 .teacher {
   background-image: url('../img/teacher.png');
   background-size: cover;
-  width: 400px;
-  height: 250px;
+  width: 500px;
+  height: 300px;
 }
 
 .overlay {
