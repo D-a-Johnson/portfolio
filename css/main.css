@@ -75,7 +75,8 @@ h1 {
   padding-top: 60px;
   margin: 0 auto;
   padding-bottom: 30px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(245,245,245,0.8);
+  border-radius: 25px;
 }
 
 .content h3 {
